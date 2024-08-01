@@ -30,3 +30,4 @@ C:\Users\martinhr\source\repos\AcuaParkManager\AcuaParkAPI\obj\Debug\net8.0\refi
 C:\Users\martinhr\source\repos\AcuaParkManager\AcuaParkAPI\obj\Debug\net8.0\AcuaParkAPI.pdb
 C:\Users\martinhr\source\repos\AcuaParkManager\AcuaParkAPI\obj\Debug\net8.0\AcuaParkAPI.genruntimeconfig.cache
 C:\Users\martinhr\source\repos\AcuaParkManager\AcuaParkAPI\obj\Debug\net8.0\ref\AcuaParkAPI.dll
+C:\Users\martinhr\source\repos\AcuaParkManager\AcuaParkAPI\obj\Debug\net8.0\AcuaParkAPI.sourcelink.json
