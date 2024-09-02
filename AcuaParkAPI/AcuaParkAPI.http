@@ -1,0 +1,6 @@
+@AcuaParkAPI_HostAddress = http://localhost:5087
+
+GET {{AcuaParkAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
