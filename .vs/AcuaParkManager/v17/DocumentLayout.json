@@ -1,12 +1,88 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Angular\\AcuaParkManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63EE9B3C-DECE-4C73-9DDB-7EC907F9BB64}|AcuaParkAPI\\AcuaParkAPI.csproj|c:\\angular\\acuaparkmanager\\acuaparkapi\\controllers\\testbbddcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63EE9B3C-DECE-4C73-9DDB-7EC907F9BB64}|AcuaParkAPI\\AcuaParkAPI.csproj|solutionrelative:acuaparkapi\\controllers\\testbbddcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|c:\\angular\\acuaparkmanager\\acuaparkidentity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|solutionrelative:acuaparkidentity\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|c:\\angular\\acuaparkmanager\\acuaparkidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|solutionrelative:acuaparkidentity\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|c:\\angular\\acuaparkmanager\\acuaparkidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}|AcuaParkIdentity\\AcuaParkIdentity.csproj|solutionrelative:acuaparkidentity\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "testBBDDController.cs",
+              "DocumentMoniker": "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\Controllers\\testBBDDController.cs",
+              "RelativeDocumentMoniker": "AcuaParkAPI\\Controllers\\testBBDDController.cs",
+              "ToolTip": "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\Controllers\\testBBDDController.cs",
+              "RelativeToolTip": "AcuaParkAPI\\Controllers\\testBBDDController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T21:57:59.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\Program.cs",
+              "RelativeDocumentMoniker": "AcuaParkIdentity\\Program.cs",
+              "ToolTip": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\Program.cs",
+              "RelativeToolTip": "AcuaParkIdentity\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:17:44.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\appsettings.json",
+              "RelativeDocumentMoniker": "AcuaParkIdentity\\appsettings.json",
+              "ToolTip": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\appsettings.json",
+              "RelativeToolTip": "AcuaParkIdentity\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-03T09:27:56.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "AcuaParkIdentity\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "AcuaParkIdentity\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T20:43:25.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
