@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using AcuaParkRepository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AcuaParkAPI.Controllers
 {

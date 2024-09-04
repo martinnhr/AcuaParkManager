@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AcuaParkIdentity\AcuaParkIdentity.csproj" />
     <ProjectReference Include="..\AcuaParkManagerShared\AcuaParkShared.csproj" />
     <ProjectReference Include="..\AcuaParkRepository\AcuaParkRepository.csproj" />
   </ItemGroup>

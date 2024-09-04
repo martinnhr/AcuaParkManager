@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj": {}
+    "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj": {
+    "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj",
+        "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj",
         "projectName": "AcuaParkAPI",
-        "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj",
-        "packagesPath": "C:\\Users\\martinhr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkAPI\\obj\\",
+        "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\AcuaParkAPI.csproj",
+        "packagesPath": "C:\\Users\\Martin_hr\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\martinhr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Martin_hr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,11 +33,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
-                "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj"
+              "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {
+                "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj"
               },
-              "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj": {
-                "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj"
+              "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
+                "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj"
+              },
+              "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj": {
+                "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj"
               }
             }
           }
@@ -77,21 +84,123 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
+    "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj",
-        "projectName": "AcuaParkShared",
-        "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj",
-        "packagesPath": "C:\\Users\\martinhr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\obj\\",
+        "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+        "projectName": "AcuaParkIdentity",
+        "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+        "packagesPath": "C:\\Users\\Martin_hr\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\martinhr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Martin_hr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj",
+        "projectName": "AcuaParkShared",
+        "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj",
+        "packagesPath": "C:\\Users\\Martin_hr\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Martin_hr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,21 +247,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj": {
+    "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj",
+        "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj",
         "projectName": "AcuaParkRepository",
-        "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj",
-        "packagesPath": "C:\\Users\\martinhr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkRepository\\obj\\",
+        "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\AcuaParkRepository.csproj",
+        "packagesPath": "C:\\Users\\Martin_hr\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkRepository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\martinhr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Martin_hr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -167,8 +280,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
-                "projectPath": "C:\\Users\\martinhr\\source\\repos\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj"
+              "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj": {
+                "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkManagerShared\\AcuaParkShared.csproj"
               }
             }
           }
@@ -213,7 +326,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
