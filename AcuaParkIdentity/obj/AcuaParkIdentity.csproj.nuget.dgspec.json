@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {}
+    "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {}
   },
   "projects": {
-    "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {
+    "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+        "projectUniqueName": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
         "projectName": "AcuaParkIdentity",
-        "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
-        "packagesPath": "C:\\Users\\Martin_hr\\.nuget\\packages\\",
-        "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\obj\\",
+        "projectPath": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Martin_hr\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

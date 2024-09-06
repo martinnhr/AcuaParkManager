@@ -22,3 +22,15 @@ C:\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared
 C:\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\refint\AcuaParkShared.dll
 C:\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.pdb
 C:\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\ref\AcuaParkShared.dll
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\bin\Debug\net8.0\AcuaParkShared.deps.json
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\bin\Debug\net8.0\AcuaParkShared.dll
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\bin\Debug\net8.0\AcuaParkShared.pdb
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.AssemblyInfoInputs.cache
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.AssemblyInfo.cs
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.csproj.CoreCompileInputs.cache
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.sourcelink.json
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.dll
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\refint\AcuaParkShared.dll
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\AcuaParkShared.pdb
+C:\Angular\Angular\AcuaParkManager\AcuaParkManagerShared\obj\Debug\net8.0\ref\AcuaParkShared.dll

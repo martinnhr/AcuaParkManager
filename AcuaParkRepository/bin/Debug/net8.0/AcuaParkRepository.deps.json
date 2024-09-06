@@ -271,7 +271,10 @@
       },
       "AcuaParkShared/1.0.0": {
         "runtime": {
-          "AcuaParkShared.dll": {}
+          "AcuaParkShared.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AcuaParkIdentity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe8429c7be70ae798342e7424b3eeb9590c93e4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f95b5902c8a58c72903f1a45ee1adbea9b0797a")]
 [assembly: System.Reflection.AssemblyProductAttribute("AcuaParkIdentity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AcuaParkIdentity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
