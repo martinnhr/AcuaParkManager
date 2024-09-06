@@ -9,7 +9,7 @@ using Dapper;
 
 namespace AcuaParkRepository
 {
-    public class testBBDDRepository : ItestBBDDRepository
+    public class testBBDDRepository : ItestBBDDRepository 
     {
 
         private readonly IConnectionString _connectionString;
@@ -21,7 +21,6 @@ namespace AcuaParkRepository
 
         public async Task<string> GetName()
         {
-
             try
             {
                 var connectionString = await _connectionString.GetConectionString();
@@ -42,14 +41,3 @@ namespace AcuaParkRepository
         }
     }
 }
-/*                 
-                    var result = await conexion.QueryAsync<ListaPlatosModel>(sql, new { DiaSemana = diaSemana });
-                    return result;
-                }
-            }
-            catch (Exception)
-            {
-                throw new Exception("Un error inesperado ocurrió. Por favor, contacte al soporte técnico.");
-            }
-        }
-*/

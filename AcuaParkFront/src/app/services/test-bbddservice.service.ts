@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class TestBBDDServiceService {
 
-  private apiUrl = "http://localhost:5087/testBBDD"
+  private apiUrl = "http://localhost:5249/testBBDD"
 
   constructor(private http: HttpClient) { }
 
