@@ -16,7 +16,7 @@ namespace AcuaParkAPI.Controllers
             _testBBDDRepository = testBBDDRepository;
         }
 
-        
+        [AllowAnonymous]
         [HttpGet(Name = "GetName")]
         public async Task<IActionResult> getName()
         {

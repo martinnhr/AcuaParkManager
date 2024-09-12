@@ -1,6 +1,54 @@
 [
   {
-    "ContainingType": "AcuaParkIdentity.Controllers.AccountController",
+    "ContainingType": "AcuaParkIdentity.Controllers.Users.AccountController",
+    "Method": "DeleteUserAutomatico",
+    "RelativePath": "api/Account/DeleteUserAutomatico/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcuaParkIdentity.Controllers.Users.AccountController",
+    "Method": "DeleteUserAutomaticoString",
+    "RelativePath": "api/Account/DeleteUserAutomaticoString/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcuaParkIdentity.Controllers.Users.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AcuaParkIdentity.Controllers.Users.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcuaParkIdentity.Controllers.Users.AccountController",
     "Method": "Register",
     "RelativePath": "api/Account/register",
     "HttpMethod": "POST",
@@ -9,7 +57,44 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "AcuaParkIdentity.Controllers.Models.RegisterModel",
+        "Type": "AcuaParkIdentity.Controllers.Users.Models.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcuaParkIdentity.Controllers.Users.AccountController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Account/UpdateUser/{userId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "AcuaParkIdentity.Controllers.Users.Models.UpdateUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcuaParkIdentity.Controllers.Roles.RolController",
+    "Method": "NewRole",
+    "RelativePath": "api/Rol/newRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AcuaParkIdentity.Controllers.Roles.Models.NewRoleModel",
         "IsRequired": true
       }
     ],

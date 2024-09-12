@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AcuaParkIdentity.Data
 {
-    public class ApplicationDbContext : IdentityDbContext /*<MyUser, MyRol, String>*/
+    public class ApplicationDbContext : IdentityDbContext <MyUser, MyRol, String>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
