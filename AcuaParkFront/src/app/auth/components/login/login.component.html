@@ -1,0 +1,40 @@
+<div class="login-container">
+    <div class="login-form">
+  
+      <!--Email-->
+      <form>
+        <mat-form-field class="full-width">
+          <mat-label>Email</mat-label>
+          <input type="email" matInput [formControl]="emailFormControl" placeholder="Your email">
+          @if (emailFormControl.hasError('email') && !emailFormControl.hasError('required')) {
+            <mat-error>Please enter a valid email address</mat-error>
+        }
+        @if (emailFormControl.hasError('required')) {
+            <mat-error>Email is <strong>required</strong></mat-error>
+        }
+        </mat-form-field>
+      </form>
+  
+      <!--Password-->
+      <form>
+        <mat-form-field class="full-width">
+          <mat-label>Password</mat-label>
+          <input type="password" matInput [formControl]="passwordControl" matInput placeholder="Your password">
+          @if (passwordControl.hasError('required')) {
+            <mat-error>Password is <strong>required</strong></mat-error>
+          }
+        </mat-form-field>
+      </form>
+  
+
+      <!-- Recuperar contraseña -->
+      <a href="#" class="forgot-password">Recuperar contraseña</a>
+  
+      <div class="form">
+        <form>
+          <button mat-raised-button color="primary" class="full-width" (click)="onLogin()">Login</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  

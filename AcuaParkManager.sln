@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcuaParkShared", "AcuaParkManagerShared\AcuaParkShared.csproj", "{77B2F91A-DE53-4D19-B70E-033679F7F19C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcuaParkRepository", "AcuaParkRepository\AcuaParkRepository.csproj", "{3C1C4219-F1C1-4BAD-89B4-98560097F849}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcuaParkIdentity", "AcuaParkIdentity\AcuaParkIdentity.csproj", "{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}"
 EndProject
 Global
@@ -15,14 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{77B2F91A-DE53-4D19-B70E-033679F7F19C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{77B2F91A-DE53-4D19-B70E-033679F7F19C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{77B2F91A-DE53-4D19-B70E-033679F7F19C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{77B2F91A-DE53-4D19-B70E-033679F7F19C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3C1C4219-F1C1-4BAD-89B4-98560097F849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C1C4219-F1C1-4BAD-89B4-98560097F849}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C1C4219-F1C1-4BAD-89B4-98560097F849}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C1C4219-F1C1-4BAD-89B4-98560097F849}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E1B6E2-FF4C-4590-86A8-DFFE885BDCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU

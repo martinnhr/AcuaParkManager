@@ -1,7 +1,4 @@
-using AcuaParkAPI.Services;
 using AcuaParkIdentity.Data;
-using AcuaParkRepository;
-using AcuaParkShared;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -12,6 +9,8 @@ using Microsoft.OpenApi.Models;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using System.Security.Claims;
 using System.Text;
+
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,25 +37,6 @@ builder.Services.AddIdentity<MyUser, MyRol>(options =>
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
 
-//builder.Services.AddAuthentication().AddJwtBearer();
-
-// Configuración de autenticación con JWT
-/*builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
-    {
-        options.TokenValidationParameters = new TokenValidationParameters
-        {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
-            ValidAudience = builder.Configuration["JwtSettings:Audience"],
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"])),
-            ClockSkew = TimeSpan.Zero // Evitar compensación de tiempo
-        };
-    });
-*/
 builder.Services.AddSwaggerGen(options =>
 {
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
@@ -84,40 +64,20 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 
-// Configurar Swagger para usar JWT
-/*builder.Services.AddSwaggerGen(c =>
+
+
+
+builder.Services.AddCors(options =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "AcuaParkIdentity API", Version = "v1" });
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:4200")
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+                      });
+});
 
-    // Definir el esquema de seguridad para Swagger
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        Name = "Authorization",
-        Type = SecuritySchemeType.ApiKey,
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
-        In = ParameterLocation.Header,
-        Description = "Ingrese el token JWT en el formato: Bearer {token}"
-    });
-
-    // Aplicar el esquema de seguridad globalmente
-    c.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type = ReferenceType.SecurityScheme,
-                    Id = "Bearer"
-                }
-            },
-            new string[] { }
-        }
-    });
-});*/
-
-builder.Services.AddRazorPages();
 
 builder.Services.AddControllers();  // Mantener el soporte para controladores y API
 
@@ -132,6 +92,8 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.SlidingExpiration = true;
     options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // Solo HTTPS
 });
+
+
 
 
 var app = builder.Build();
@@ -154,12 +116,13 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseCors(MyAllowSpecificOrigins);
+
+
 // Orden correcto: primero autenticación, luego autorización
 app.UseAuthentication();  // Este middleware asegura que el token JWT sea validado
 app.UseAuthorization();   // Este middleware asegura que las políticas de autorización (roles, etc.) sean aplicadas
 
 app.MapControllers();
-
-app.MapRazorPages();
 
 app.Run();

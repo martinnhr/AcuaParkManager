@@ -1,6 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using AcuaParkRepository;
-using Microsoft.AspNetCore.Authorization;
+﻿using AcuaParkIdentity.Data;
+using Microsoft.AspNetCore.Mvc;
 
 namespace AcuaParkAPI.Controllers
 {
@@ -9,19 +8,18 @@ namespace AcuaParkAPI.Controllers
     public class testBBDDController: ControllerBase
     {
 
-        private readonly ItestBBDDRepository _testBBDDRepository;
+        private readonly ApplicationDbContext _context;
 
-        public testBBDDController(ItestBBDDRepository testBBDDRepository)
+        public testBBDDController(ApplicationDbContext context)
         {
-            _testBBDDRepository = testBBDDRepository;
+            _context = context;
         }
 
-        [AllowAnonymous]
         [HttpGet(Name = "GetName")]
         public async Task<IActionResult> getName()
         {
-
-            return Ok(await _testBBDDRepository.GetName());
+            var res = await _context.Tests.FindAsync(1);
+            return Ok(res.Name);
         }
     }
 }
