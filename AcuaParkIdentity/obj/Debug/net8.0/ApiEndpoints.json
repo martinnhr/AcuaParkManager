@@ -101,6 +101,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "AcuaParkIdentity.Controllers.Tokens.TokenController",
+    "Method": "VerifyToken",
+    "RelativePath": "api/Token/VerifyToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "AcuaParkAPI.Controllers.testBBDDController",
     "Method": "getName",
     "RelativePath": "testBBDD",

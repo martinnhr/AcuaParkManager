@@ -71,6 +71,8 @@ namespace AcuaParkIdentity.Controllers.Users
         }
 
 
+
+
         [Authorize(Roles = "string")]
         [HttpDelete("DeleteUserAutomaticoString/{userId}")]
         public async Task<IActionResult> DeleteUserAutomaticoString(int userId)
@@ -190,7 +192,7 @@ namespace AcuaParkIdentity.Controllers.Users
                 issuer: _configuration["JwtSettings:Issuer"],
                 audience: _configuration["JwtSettings:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddHours(3),
+                expires: DateTime.Now.AddSeconds(10),
                 signingCredentials: creds
             );
 

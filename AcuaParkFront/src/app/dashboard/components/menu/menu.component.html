@@ -1,0 +1,17 @@
+<div class="sidebar" [class.collapsed]="isCollapsed">
+    <button (click)="toggleMenu()">☰</button>
+    @if (!isCollapsed){
+        @for(
+            MenuItem of MenuList;
+            track MenuItem.id
+        ) {
+            <app-menu-item
+                [MenuItem]="MenuItem"
+            />
+        }
+        
+        
+        <mat-icon aria-hidden="false" fontIcon="logout"></mat-icon>
+    }
+</div>
+  

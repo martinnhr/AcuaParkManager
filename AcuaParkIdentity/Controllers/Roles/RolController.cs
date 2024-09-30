@@ -1,6 +1,6 @@
 ﻿using AcuaParkIdentity.Controllers.Roles.Models;
 using AcuaParkIdentity.Data;
-using Microsoft.AspNetCore.Authorization;
+using AcuaParkIdentity.Attributes;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,7 +17,7 @@ namespace AcuaParkIdentity.Controllers.Roles
             _roleManager = roleManager;
         }
 
-        [AllowAnonymous]
+        //[Authorize(Roles = "Admin")]
         [HttpPost("newRole")]
         public async Task<IActionResult> NewRole([FromBody] NewRoleModel model)
         {
@@ -31,7 +31,6 @@ namespace AcuaParkIdentity.Controllers.Roles
             var res = await _roleManager.CreateAsync(role);
 
             return Ok(res);
-
         }
 
         

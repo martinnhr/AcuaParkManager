@@ -5793,11 +5793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+      "projectUniqueName": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
       "projectName": "AcuaParkIdentity",
-      "projectPath": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
+      "projectPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\AcuaParkIdentity.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Angular\\Angular\\AcuaParkManager\\AcuaParkIdentity\\obj\\",
+      "outputPath": "C:\\Angular\\AcuaParkManager\\AcuaParkIdentity\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TestBBDDServiceService } from '../../services/test-bbddservice.service';
+import { TestBBDDServiceService } from '../../../services/test-bbddservice.service';
 
 @Component({
   selector: 'app-test-bbdd',
