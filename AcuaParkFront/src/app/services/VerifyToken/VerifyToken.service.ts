@@ -23,6 +23,7 @@ export class VerifyToken {
       const headers = new HttpHeaders({
         'Authorization': `Bearer ${token}`
       });
+
       return this.http.get(this.verifyTokenUrl, { headers }).pipe(
         catchError(error => {
           console.error('Error verifying token', error);

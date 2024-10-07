@@ -192,7 +192,7 @@ namespace AcuaParkIdentity.Controllers.Users
                 issuer: _configuration["JwtSettings:Issuer"],
                 audience: _configuration["JwtSettings:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddSeconds(10),
+                expires: DateTime.Now.AddHours(3),
                 signingCredentials: creds
             );
 

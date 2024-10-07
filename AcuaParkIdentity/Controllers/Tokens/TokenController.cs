@@ -51,22 +51,22 @@ namespace AcuaParkIdentity.Controllers.Tokens
                 var principal = tokenHandler.ValidateToken(token, tokenValidationParameters, out var validatedToken);
 
                 // Si el token es válido, devolver una respuesta positiva
-                return Ok(new { message = "Token válido" });
+                return Ok(new { valid = true, message = "Token válido" });
             }
             catch (SecurityTokenExpiredException)
             {
                 // Token ha expirado
-                return Unauthorized(new { message = "El token ha expirado" });
+                return Unauthorized(new { valid = false, message = "El token ha expirado" });
             }
             catch (SecurityTokenException)
             {
                 // Token inválido
-                return Unauthorized(new { message = "El token es inválido" });
+                return Unauthorized(new { valid = false, message = "El token es inválido" });
             }
             catch (Exception)
             {
                 // Cualquier otro error
-                return Unauthorized(new { message = "Error al validar el token" });
+                return Unauthorized(new { valid = false, message = "Error al validar el token" });
             }
         }
     }

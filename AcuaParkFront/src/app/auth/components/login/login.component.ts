@@ -27,7 +27,9 @@ export class LoginComponent {
 
   onLogin() {
     // Verificar si el formulario es válido antes de enviar la solicitud
+    console.log("Verificar si el formulario es válido antes de enviar la solicitud");
     if (this.emailFormControl.valid && this.passwordControl.valid) {
+      console.log("Verificacion true");
       const loginData = {
         email: this.emailFormControl.value?? '',
         password: this.passwordControl.value?? ''
@@ -37,14 +39,17 @@ export class LoginComponent {
       this.authService.login(loginData).subscribe({
         next: (response) => {
           this.authService.setToken(response.token);  // Guardar el token JWT
+          console.log("redirigiendo a home")
           this.router.navigate(['/home']);  // Redirigir a la página principal
         },
         error: (err) => {
+          console.log("ha dado error");
           this.errorMessage = 'Login failed. Please try again.' + err;
         }
       });
     } else {
       // Mostrar mensaje de error si los campos no son válidos
+      console.log("Verificacion false");
       this.errorMessage = 'Please enter a valid email and password.';
     }
   }

@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { LoginComponent } from './components/login/login.component';
+import { AuthService } from './services/auth.service';
 
 @Component({
   selector: 'app-auth',
@@ -8,6 +9,11 @@ import { LoginComponent } from './components/login/login.component';
   templateUrl: './auth.component.html',
   styleUrl: './auth.component.scss'
 })
-export class AuthComponent {
+export class AuthComponent implements OnInit{
+  constructor( private authService: AuthService) {}
+
+  ngOnInit(): void {
+    this.authService.clearToken();
+  }
 
 }
